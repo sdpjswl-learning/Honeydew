@@ -8,7 +8,7 @@
 
 @import Foundation;
 
-@interface HoneydewNotification : NSObject
+@interface Honeydew : NSObject
 
 + (instancetype)sharedInstance;
 - (void)setUpLocalNotification;

@@ -9,10 +9,10 @@
 @import UIKit;
 #import "Honeydew.h"
 
-@implementation HoneydewNotification
+@implementation Honeydew
 
 + (instancetype)sharedInstance {
-    static HoneydewNotification *sharedInstance = nil;
+    static Honeydew *sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedInstance = [[self alloc] init];
