@@ -55,7 +55,7 @@
     if (notifications.count) {
         [[UIApplication sharedApplication] cancelAllLocalNotifications];
     }
-    [[HoneydewNotification sharedInstance] setUpLocalNotification];
+    [[Honeydew sharedInstance] setUpLocalNotification];
 }
 
 - (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
